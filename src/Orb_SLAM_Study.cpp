@@ -11,7 +11,8 @@ int main (int argc, char** argv)
     // 그 중에서 ORB algorithm에서 ORB의 시작을 알리는 create함수를 실행.
     cv::Ptr<cv::Feature2D> feature = cv::ORB::create();
 
-    
+    // vector컨테이너는 자료구조에서 stack과 비슷한 역할을 하는 c++에서 제공되는 컨테이이너이다.
+    // 
     std::vector<cv::KeyPoint> trgKeyPoints, srcKeyPoints;
     cv::imshow("ok", img);
     cv::waitKey(0);
