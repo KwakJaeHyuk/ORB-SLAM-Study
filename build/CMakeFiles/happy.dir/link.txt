@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/happy.dir/Main_Study.cpp.o  -o happy 
